@@ -10,8 +10,8 @@ import { GoogleTagManager } from "@next/third-parties/google";
 const serverConfig = getServerSideConfig();
 
 export const metadata: Metadata = {
-  title: "ChatGPT-3.5 蛋壳部署",
-  description: "永久免费可用的ChatGTP-3.5程序",
+  title: "NextChat公益版",
+  description: "免费使用，即用即答",
   viewport: {
     width: "device-width",
     initialScale: 1,
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     { media: "(prefers-color-scheme: dark)", color: "#151515" },
   ],
   appleWebApp: {
-    title: "ChatGPT-3.5 蛋壳部署",
+    title: "NextChat公益版",
     statusBarStyle: "default",
   },
 };
