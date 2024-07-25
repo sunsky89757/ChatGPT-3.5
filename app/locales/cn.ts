@@ -377,7 +377,7 @@ const cn = {
   },
   Store: {
     DefaultTopic: "新的聊天",
-    BotHello: "欢迎使用蛋壳部署永久免费GPT-3.5！[[蛋壳官网]](https://www.gptacg.fun)|[[GPT-4 API-Key自助购买]](https://one.meithink.com)",
+    BotHello: "欢迎使用NextChat公益版，[[聚合AI官网]](https://www.gptacg.com)|[[GPT-4 API-Key自助购买]](https://www.juheaistore.top)",
     Error: "出错了，稍后重试吧",
     Prompt: {
       History: (content: string) => "这是历史聊天总结作为前情提要：" + content,
